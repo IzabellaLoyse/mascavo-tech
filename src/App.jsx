@@ -11,7 +11,7 @@ import { HeaderMascavo, Wrapper } from './components/HeaderMascavo/style';
 import { Configuration } from './styles';
 import { ButtonMascavo } from './components/ButtonMascavo/style';
 import { FooterMascavo } from './components/FooterMascavo/style';
-import { BannerMascavo } from './components/BannerMascavo/style';
+import { BannerMascavo, Text } from './components/BannerMascavo/style';
 import { TagMascavo } from './components/TagMascavo/style';
 import { TitleMascavo } from './components/TitleMascavo/style';
 import { DescriptionMascavo } from './components/DescriptionMascavo/style';
@@ -30,13 +30,14 @@ function App() {
 
       <Main>
         <BannerMascavo>
-          <TagMascavo> Front End </TagMascavo>
+          <Text>
+            <TagMascavo> Front End </TagMascavo>
 
-          <TitleMascavo>Criando Player com React</TitleMascavo>
-          <DescriptionMascavo>
-            O Marco Bruno nesse vídeo iniciou a criação de um Player com React
-          </DescriptionMascavo>
-
+            <TitleMascavo>Criando Player com React</TitleMascavo>
+            <DescriptionMascavo>
+              O Marco Bruno nesse vídeo iniciou a criação de um Player com React
+            </DescriptionMascavo>
+          </Text>
           <ThumbMascavo
             src={Thumb}
             alt="Thumb do Marco Bruno fazendo Player com React"
