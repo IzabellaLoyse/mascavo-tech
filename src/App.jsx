@@ -7,7 +7,7 @@ import { Main } from './components/Main';
 import Thumb from './assets/img/thumb.png';
 
 //Styles
-import { HeaderMascavo } from './components/HeaderMascavo/style';
+import { HeaderMascavo, Wrapper } from './components/HeaderMascavo/style';
 import { Configuration } from './styles';
 import { ButtonMascavo } from './components/ButtonMascavo/style';
 import { FooterMascavo } from './components/FooterMascavo/style';
@@ -21,9 +21,11 @@ function App() {
   return (
     <>
       <HeaderMascavo>
-        <LogoMascavo />
+        <Wrapper>
+          <LogoMascavo />
 
-        <ButtonMascavo>Novo vídeo</ButtonMascavo>
+          <ButtonMascavo>Novo vídeo</ButtonMascavo>
+        </Wrapper>
       </HeaderMascavo>
 
       <Main>

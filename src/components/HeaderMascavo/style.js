@@ -1,18 +1,27 @@
 import styled from 'styled-components';
+import { container } from '../../styles/tools/container';
 import { ButtonMascavo } from '../ButtonMascavo/style';
 import LogoMascavo from '../LogoMascavo';
 
 export const HeaderMascavo = styled.header`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.87rem 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   background-color: var(--color-black-dark);
   border-bottom: 4px solid var(--color-primary-medium);
 
   @media (max-width: 50em) {
-    justify-content: center;
     padding: 0.93rem 1rem;
+  }
+`;
+
+export const Wrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ${container};
+
+  @media (max-width: 50em) {
+    justify-content: center;
 
     & > ${LogoMascavo} {
       height: 2.187rem;

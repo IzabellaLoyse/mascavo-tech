@@ -62,6 +62,7 @@ html,
 body {
 	font-size: 100%;
 	min-width: 20rem;
+	height: 100vh;
 }
 
 `;
