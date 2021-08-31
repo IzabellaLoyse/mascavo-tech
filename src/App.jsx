@@ -5,6 +5,8 @@ import LogoMascavo from './components/LogoMascavo';
 import { FooterTextComponent } from './components/FooterText';
 import { Main } from './components/Main';
 import Thumb from './assets/img/thumb.png';
+import { ThumbMascavo } from './components/ThumbMascavo';
+import marcobrunodev from './assets/img/marcobrunodev.png'
 
 //Styles
 import { HeaderMascavo, Wrapper } from './components/HeaderMascavo/style';
@@ -15,7 +17,7 @@ import { BannerMascavo, Text } from './components/BannerMascavo/style';
 import { TagMascavo } from './components/TagMascavo/style';
 import { TitleMascavo } from './components/TitleMascavo/style';
 import { DescriptionMascavo } from './components/DescriptionMascavo/style';
-import { ThumbMascavo } from './components/ThumbMascavo/style';
+
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
           <ThumbMascavo
             src={Thumb}
             alt="Thumb do Marco Bruno fazendo Player com React"
+            avatar={marcobrunodev}
+            channelName="macobrunodev"
           />
         </BannerMascavo>
       </Main>
