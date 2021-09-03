@@ -5,7 +5,7 @@ export const ButtonMascavo = styled.button`
   color: var(--color-gray-light);
   background-color: var(--color-black-dark);
   border: 1px solid var(--color-gray-light);
-  border-radius: 4px;
+  border-radius: var(--global-radius);
   font-size: 1rem;
   cursor: pointer;
 `;
