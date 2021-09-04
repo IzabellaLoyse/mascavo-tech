@@ -37,7 +37,7 @@ function App() {
 
             <TitleMascavo>Criando Player com React</TitleMascavo>
             <DescriptionMascavo>
-              O Marco Bruno nesse vídeo iniciou a criação de um Player com React
+              O Marco Bruno nesse vídeo iniciou a criação de um Player com React JS.
             </DescriptionMascavo>
           </Text>
           <ThumbMascavo

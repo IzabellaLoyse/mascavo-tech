@@ -2,9 +2,9 @@ import { createGlobalStyle } from 'styled-components';
 
 export const Measures = createGlobalStyle`
 :root {
-  --global-radius: 4px;
+  --global-radius: 5px;
   --space: 0.5rem;
-  --effect-space: 1rem;
-  --move-space: calc(var(--space) * -1);
+  --effect-space: 0.3rem;
+  --move-space: calc(var(--effect-space) * -1);
 }
 `;

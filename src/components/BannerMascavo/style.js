@@ -1,11 +1,9 @@
 import styled from 'styled-components';
 import { container } from '../../styles/tools/container';
 import { TagMascavo } from '../TagMascavo/style';
-import { WrapperThumb } from '../ThumbMascavo/style';
 import { TitleMascavo } from '../TitleMascavo/style';
 
 export const Text = styled.div`
-  padding-bottom: 8rem;
   max-width: 45%;
 
   ${TagMascavo} {
@@ -24,9 +22,5 @@ export const BannerMascavo = styled.section`
   justify-content: space-between;
   max-height: 70vh;
   height: 100vh;
-  margin-top: 5rem;
-
-  ${WrapperThumb} {
-    margin-bottom: 6rem;
-  }
+  margin-top: 2rem;
 `;
