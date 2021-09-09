@@ -43,6 +43,7 @@ function App() {
           <ThumbMascavo
             src={Thumb}
             alt="Thumb do Marco Bruno fazendo Player com React"
+            title="Criando Player com React - Marco Bruno"
             avatar={marcobrunodev}
             channelName="macobrunodev"
           />

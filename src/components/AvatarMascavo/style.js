@@ -16,4 +16,6 @@ export const Avatar = styled.img`
 export const Channel = styled.figcaption`
   font-size: 1rem;
   color: var(--color-gray-light);
+  font-weight: bold;
+  text-shadow: 2px 2px 2px var(--color-black-dark);
 `;
