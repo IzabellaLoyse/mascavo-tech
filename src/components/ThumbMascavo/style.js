@@ -1,20 +1,9 @@
 import styled from 'styled-components';
-
-export const Avatar = styled.img`
-  position: absolute;
-  top: var(--space);
-  left: var(--space);
-  width: 2.3rem;
-  height: 2.3rem;
-  border-radius: 50%;
-  border: 2px solid var(--color-black-medium);
-  transform: translateX(calc((100% + var(--space)) * -1));
-  transition: transform 200ms linear, opacity 300ms linear;
-  opacity: 0;
-`;
+import { WrapperAvatar } from '../AvatarMascavo/style';
 
 export const Thumb = styled.img`
   width: 100%;
+  transition: filter 100ms linear;
 `;
 
 export const WrapperThumb = styled.figure`
@@ -27,6 +16,16 @@ export const WrapperThumb = styled.figure`
   overflow: hidden;
   cursor: pointer;
   transition: transform 100ms linear;
+
+  & > ${WrapperAvatar} {
+    margin-right: 1rem;
+    position: absolute;
+    top: var(--space);
+    left: var(--space);
+    transform: translateX(calc((100% + var(--space)) * -1));
+    transition: transform 200ms linear, opacity 300ms linear;
+    opacity: 0;
+  }
 `;
 
 export const Background = styled.div`
@@ -70,7 +69,11 @@ export const Background = styled.div`
     & > ${WrapperThumb} {
       transform: translate(var(--move-space), var(--move-space));
 
-      & > ${Avatar} {
+      & > ${Thumb} {
+        filter: brightness(0.6);
+      }
+
+      & > ${WrapperAvatar} {
         transform: translateX(0);
         opacity: 1;
         transition: transform 100ms 150ms linear, opacity 300ms 150ms linear;

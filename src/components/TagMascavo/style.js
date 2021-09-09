@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const TagMascavo = styled.h2`
   display: inline-block;
-  border-radius: 4px;
-  font-size: 3rem;
-  background-color: var(--color-frontend);
-  padding: 1.2rem 1rem;
+  border-radius: var(--global-radius);
+  font-size: 2.8rem;
+  background-color: var(--color-pixelart);
+  padding: 0.4em 0.4em;
   color: var(--color-gray-light);
 `;

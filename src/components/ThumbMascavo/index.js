@@ -1,15 +1,18 @@
 import React from 'react';
 
-// Styles
-import { Thumb, WrapperThumb, Avatar, Background } from './style';
+// Components
+import { AvatarMascavo } from '../AvatarMascavo';
 
-export  function ThumbMascavo({ src, alt, avatar, channelName }) {
+// Styles
+import { Thumb, WrapperThumb, Background } from './style';
+
+export function ThumbMascavo({ src, alt, avatar, channelName }) {
   return (
     <Background>
-    <WrapperThumb>
-      <Thumb src={src} alt={alt} />
-      <Avatar src={avatar} alt={channelName}/>
-    </WrapperThumb>
+      <WrapperThumb>
+        <Thumb src={src} alt={alt} />
+        <AvatarMascavo photo={avatar} channelName={channelName} />
+      </WrapperThumb>
     </Background>
   );
 }

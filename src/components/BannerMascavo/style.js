@@ -6,10 +6,7 @@ import { TitleMascavo } from '../TitleMascavo/style';
 export const Text = styled.div`
   max-width: 45%;
 
-  ${TagMascavo} {
-    margin-bottom: 2.2rem;
-  }
-
+  ${TagMascavo},
   ${TitleMascavo} {
     margin-bottom: 2rem;
   }
