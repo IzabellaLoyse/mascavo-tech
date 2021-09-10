@@ -1,6 +1,16 @@
 import styled from 'styled-components';
 import { WrapperAvatar } from '../AvatarMascavo/style';
 
+export const Time = styled.span`
+  position: absolute;
+  right: var(--space);
+  bottom: var(--space);
+  font-size: 0.8rem;
+  background-color: var(--color-black-medium);
+  color: var(--color-gray-light);
+  padding: 0.2rem 0.2rem;
+`;
+
 export const Title = styled.figcaption`
   position: absolute;
   left: var(--space);

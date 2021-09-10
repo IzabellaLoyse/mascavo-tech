@@ -46,6 +46,7 @@ function App() {
             title="Criando Player com React - Marco Bruno"
             avatar={marcobrunodev}
             channelName="macobrunodev"
+            time="02:00:00"
           />
         </BannerMascavo>
       </Main>
