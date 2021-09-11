@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { container } from '../../styles/tools/container';
-import { TagMascavo } from '../TagMascavo/style';
-import { TitleMascavo } from '../TitleMascavo/style';
+import container from '../../styles/tools/container';
+import TagMascavo from '../TagMascavo/style';
+import TitleMascavo from '../TitleMascavo/style';
 
 export const Text = styled.div`
   max-width: 45%;

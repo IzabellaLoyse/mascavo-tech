@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FooterMascavo = styled.footer`
+const FooterMascavo = styled.footer`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,3 +9,5 @@ export const FooterMascavo = styled.footer`
   padding: 2rem;
   border-top: 4px solid var(--color-primary-medium);
 `;
+
+export default FooterMascavo;

@@ -1,10 +1,10 @@
 import React from 'react';
 
 // Styles
-import { FooterText } from './style';
-import { LinkMascavo } from '../LinkMascavo/style';
+import FooterText from './style';
+import LinkMascavo from '../LinkMascavo/style';
 
-export function FooterTextComponent() {
+function FooterTextComponent() {
   return (
     <FooterText>
       Desenvolvido por
@@ -14,3 +14,5 @@ export function FooterTextComponent() {
     </FooterText>
   );
 }
+
+export default FooterTextComponent;

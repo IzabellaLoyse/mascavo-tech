@@ -1,5 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export function Main({ children }) {
+function Main({ children }) {
   return <main>{children}</main>;
 }
+Main.propTypes = {
+  children: PropTypes.element.isRequired,
+};
+
+export default Main;

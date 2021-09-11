@@ -1,6 +1,8 @@
 import React from 'react';
-import { Logo } from './style';
+import Logo from './style';
 
-export default function LogoMascavo() {
+function LogoMascavo() {
   return <Logo />;
 }
+
+export default LogoMascavo;

@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-export const Measures = createGlobalStyle`
+const Measures = createGlobalStyle`
 :root {
   --global-radius: 5px;
   --space: 0.5rem;
@@ -8,3 +8,5 @@ export const Measures = createGlobalStyle`
   --move-space: calc(var(--effect-space) * -1);
 }
 `;
+
+export default Measures;

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Colors } from './settings/colors';
-import { Measures } from './settings/measures';
-import { Reset } from './vendor/reset';
+import Colors from './settings/colors';
+import Measures from './settings/measures';
+import Reset from './vendor/reset';
 
-export function Configuration() {
+function Configuration() {
   return (
     <>
       <Measures />
@@ -12,3 +12,5 @@ export function Configuration() {
     </>
   );
 }
+
+export default Configuration;

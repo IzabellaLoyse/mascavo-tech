@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-export const ButtonMascavo = styled.button`
-  padding: 1.10rem 2rem;
+const ButtonMascavo = styled.button`
+  padding: 1.1rem 2rem;
   color: var(--color-gray-light);
   background-color: var(--color-black-dark);
   border: 1px solid var(--color-gray-light);
@@ -9,3 +9,5 @@ export const ButtonMascavo = styled.button`
   font-size: 1rem;
   cursor: pointer;
 `;
+
+export default ButtonMascavo;

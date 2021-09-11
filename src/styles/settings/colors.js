@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-export const Colors = createGlobalStyle`
+const Colors = createGlobalStyle`
 :root {
   --color-primary-medium: #ee3f3f;
   --color-black-medium: rgba(0, 0, 0, 0.6);
@@ -18,3 +18,5 @@ export const Colors = createGlobalStyle`
   --color-pixelart: rgb(92, 92, 153);
 }
 `;
+
+export default Colors;

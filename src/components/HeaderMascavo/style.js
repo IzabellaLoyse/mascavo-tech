@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { container } from '../../styles/tools/container';
-import { ButtonMascavo } from '../ButtonMascavo/style';
+import container from '../../styles/tools/container';
+import ButtonMascavo from '../ButtonMascavo/style';
 import LogoMascavo from '../LogoMascavo';
 
 export const HeaderMascavo = styled.header`
